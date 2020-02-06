@@ -10,7 +10,7 @@ Currently this package must be installed manually.
 ## Configuring
 Add the following to your configuration:
 
-	(add-hook 'hoon-mode
+	(add-hook 'hoon-mode-hook
 	          (lambda ()
 	            (define-key hoon-mode-map (kbd "C-c r") 'hoon-eval-region-in-herb)
 	            (define-key hoon-mode-map (kbd "C-c b") 'hoon-eval-buffer-in-herb)))
